@@ -14,7 +14,7 @@ function merge(array1, array2){
   return sorted.concat(array1).concat(array2);
 }
 
-function mergeSort(array)){
+function mergeSort(array){
   let midpoint = array.length/2
   let firstHalf = array.slice(0, midpoint)
   let secondHalf = array.slice(midpoint, array.length)
