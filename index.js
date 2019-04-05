@@ -11,7 +11,7 @@ function merge(array1, array2){
       sorted.push(findMinAndRemoveSorted(array2))
     }
   }
-  retrun sorted.concat(array1).concat(array2);
+  return sorted.concat(array1).concat(array2);
 }
 // function merge(array1, array2){
 //   let sorted = []
