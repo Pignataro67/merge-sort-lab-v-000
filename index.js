@@ -1,5 +1,5 @@
 function findMinAndRemoveSorted(array){
-  retrun array.shift();
+  return array.shift();
 }
 
 
